@@ -11,20 +11,22 @@
       justify-content: space-between;
   }
   .productBlock{
-      background-color: rgb(164, 239, 239);
+      background-color: rgb(191, 248, 248);
   }
   .row {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
+  
   }
   .box {
-      background-color: white;
+      background-color: rgb(250, 230, 206);
       margin: 10px;
       border-radius: 20px;
       padding: 10px;
   }
   .cartBlock {
-      background-color: rgb(164, 239, 239);
+      background-color: rgb(191, 248, 248);
       width: 300px;
       position: fixed;
       top:0px;
@@ -33,3 +35,42 @@
       padding: 20px;
       transition: 2s;
   }
+  
+  .login {
+      border: 1px solid black;
+      text-align: center;
+      padding: 50px;
+      width: 500px;
+      margin: auto;
+      height: 550px;
+    
+  }
+  
+  .login input,button{
+      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  
+  .registration {
+      border: 1px solid black;
+      text-align: center;
+      padding: 50px;
+      width: 500px;
+      margin: auto;
+  
+  }
+  
+  .registration input,button{
+      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 5px;
+    
+  }
+
+  
+  
